@@ -5,7 +5,6 @@
 // gestures. You can also use WidgetTester to find child widgets in the widget
 // tree, read text, and verify that the values of widget properties are correct.
 
-import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
@@ -16,6 +15,10 @@ void main() {
 
     test("should do something more important", () {
       expect(true, isTrue, reason: "This method was not a great function.");
+    });
+
+    test("should impress the customer", () {
+      expect(true, isTrue, reason: "It really should impress the customer");
     });
 
     test("should impress the customer", () {
